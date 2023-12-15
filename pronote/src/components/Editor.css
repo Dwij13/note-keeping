@@ -1,0 +1,38 @@
+.output-text {
+  background-color: #464646;
+  width: 35vw;
+  height: 60vh;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 15px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow-y: auto;
+  /* overflow: hidden; */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.output {
+  margin-left: 10%;
+}
+
+.container {
+  display: flex;
+  padding-left: 20px;
+  /* justify-conent: space-between; */
+}
+
+* {
+  text-align: left;
+}
+
+.input-text {
+  border: #464646 2px solid;
+  background-color: #3867d6;
+  width: 40vw;
+  color: white;
+  height: 50vh;
+  padding: 15px;
+}
